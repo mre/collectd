@@ -1,16 +1,16 @@
-# docker collectd
+# Docker-Collectd
 
-Collectd compiled from source.  
+Collectd compiled from source running inside a Docker container.  
 (https://github.com/collectd/collectd)
 
 # Usage
 
-Adjust the config file `collectd.conf`.  
-Afterwards run a collectd instance like this:
+If you want, you can adjust the config file `collectd.conf` to your needs.  
+After that, run:
 
     docker run -it -rm mre0/collectd
     
 You can also write your data to any endpoint supported by collectd.  
-For instance run the following to write into Kafka:
+For instance run the following to write the collectd metrics into Kafka:
 
     docker-compose up

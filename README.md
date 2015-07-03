@@ -3,6 +3,8 @@
 Collectd compiled from source running inside a Docker container.  
 (https://github.com/collectd/collectd)
 
+Find this [image on dockerhub](https://registry.hub.docker.com/u/mre0/collectd/)
+
 # Usage
 
 If you want, you can adjust the config file `collectd.conf` to your needs.  
